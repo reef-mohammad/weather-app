@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:weather_app/screens/view_page.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:weather_app/Screens/weather_screen.dart';
+import 'package:weather_app/Service/supabseApi.dart';
+import 'package:weather_app/api_bloc/api_bloc.dart';
 
 void main() {
-  runApp( MainApp());
+  subabaseConfing();
+  runApp(const MainApp());
 }
 
 class MainApp extends StatelessWidget {
@@ -10,8 +14,11 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home:ViewPage(),
+    return BlocProvider(
+      create: (context) => ApiBloc(),
+      child: MaterialApp(
+        home: WeatherScreen(),
+      ),
     );
   }
 }
