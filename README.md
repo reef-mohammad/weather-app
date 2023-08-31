@@ -2,11 +2,11 @@
 
 ## Congratulations!
 
-Congratulations on reaching this phase of the course! Over the next few days, you will be working on your third project, which will allow you to further apply your knowledge and skills to build another real-world application. This exam project will serve as a demonstration of your proficiency in API usage and the implementation of the Bloc pattern for state management in Flutter. It will focus on understanding Flutter's architecture, project structure, widgets, Bloc state management, and networking concepts.
+Congratulations on reaching this phase of the course! Over the next few days, you will be working on your third project, which will allow you to further apply your knowledge and skills to build another real-world application. This exam project will serve as a demonstration of your proficiency in API usage, the implementation of the Bloc pattern for state management in Flutter, and the use of Supabase as a database management. It will focus on understanding Flutter's architecture, project structure, widgets, Bloc state management, and networking concepts.
 
 ## Description:
 
-Your task is to create a functional and user-friendly Weather app using Flutter with the implementation of the Bloc pattern for state management. The app should accurately retrieve and display weather information based on the user's location or a location of their choice. Users should be able to view the current weather conditions, such as temperature, humidity, wind speed, and weather description (e.g., sunny, rainy, cloudy). All weather data should be fetched from a reliable weather API and displayed in a user-friendly manner.
+Your task is to create a functional and user-friendly Weather app using Flutter with the implementation of the Bloc pattern for state management and Supabase. The app should accurately retrieve and display weather information based on the user's location or a location of their choice. Users should be able to view the current weather conditions, such as temperature, humidity, wind speed, and weather description (e.g., sunny, rainy, cloudy). All weather data should be fetched from a reliable weather API and displayed in a user-friendly manner.
 
 ## Rules & Guidelines
 
@@ -26,30 +26,31 @@ Your task is to create a functional and user-friendly Weather app using Flutter 
 
 ## Schedule & Deadlines:
 
-- Exam Start Date: 9/8/2023 - 3:00 PM
-- Exam Submission Deadline: 13/8/2023 – 9:59 AM
+- Exam Start Date: 31/8/2023 - 10:00 AM
+- Exam Submission Deadline: 3/9/2023 – 9:59 AM
 
 ## Minimum Requirements:
 
 1. Correct Structure:
      Ensure that the application is built with the appropriate structure. Follow Flutter's best practices for organizing code and project files.
 
-3. Code Quality:
+2. Code Quality:
    - The project code should follow Flutter's best practices for organizing code and project files.
    - Your code should be clean, well-structured, and easy to understand.
    - Use meaningful variable and function names to enhance code readability.
    - Adhere to standard coding conventions and formatting guidelines.
    - Make proper use of programming concepts and techniques. Implement efficient algorithms and follow Flutter's design patterns to create a robust and functional app.
 
-4. Applying Concepts: Make proper use of programming concepts and techniques. Implement efficient algorithms and follow Flutter's design patterns to create a robust and functional.
+3. Applying Concepts: Make proper use of programming concepts and techniques. Implement efficient algorithms and follow Flutter's design patterns to create a robust and functional.
 
-5. Bloc Pattern Implementation:
+4. Bloc Pattern Implementation:
    - Implement the Bloc pattern for state management in your Weather app.
    - Use blocs to manage the app's state and data updates effectively.
    - Ensure that the blocs are properly structured and that they separate the business logic from the presentation layer.
 
-6. Data Representation: Treat weather data as objects using a model. Create a model class to define the structure of weather information, including attributes like name, quantity, etc.
+5. Data Representation: Treat weather data as objects using a model. Create a model class to define the structure of weather information, including attributes like name, quantity, etc.
 
+6. Supabase: Implement a supabase functions to retrieve and store weather data that is retrieved from API.
 
 7. App Design and User Experience:
    - The app should have an intuitive and visually appealing user interface.
