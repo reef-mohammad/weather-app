@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:weather_app/Screens/weather_screen.dart';
+import 'package:weather_app/Service/supabseApi.dart';
+import 'package:weather_app/api_bloc/api_bloc.dart';
 
 void main() {
+  subabaseConfing();
   runApp(const MainApp());
 }
 
@@ -9,11 +14,10 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
+    return BlocProvider(
+      create: (context) => ApiBloc(),
+      child: MaterialApp(
+        home: WeatherScreen(),
       ),
     );
   }
